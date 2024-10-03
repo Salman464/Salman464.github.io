@@ -796,7 +796,7 @@ a:hover {
 }
 
 .hero-single {
-  height: 350px;
+  height: 200px;
 }
 
 .hero-single .hero-content {
@@ -1016,6 +1016,8 @@ a:hover {
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
+  background-color: white;
+  padding-bottom: 20px;
 }
 
 .portfolio-details .portfolio-details-slider img {
@@ -1041,7 +1043,7 @@ a:hover {
 
 .portfolio-details .portfolio-info {
   padding: 30px;
-  box-shadow: 0px 0 30px rgba(78, 78, 78, 0.08);
+  box-shadow: 0px 0 30px rgba(78, 78, 78, 0.3);
 }
 
 .portfolio-details .portfolio-info h3 {
