@@ -950,6 +950,15 @@ a:hover {
   width: 60px;
   line-height: 1.5;
   box-shadow: 0 0 0 10px #cde1f8;
+  display: inline-flex;           /* center icon horizontally and vertically */
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ensure the Bootstrap icon is visually centered within the circle */
+.counter-ico .ico-circle i {
+  line-height: 0;
+  font-size: 28px;
 }
 
 .counter-num .counter {
